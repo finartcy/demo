@@ -10,10 +10,10 @@ This script is a streamlined conceptual prototype intentionally stripped of prod
 
 ## Key Features
 
-*   **Clean Variable Injection:** Uses multi-line docstrings and named `.format()` placeholders to keep prompt templates highly readable.
-*   **Modern OpenAI SDK:** Built using the latest OpenAI Python client initialization and chat completion structures.
-*   **Separation of Concerns:** Isolates the prompt construction logic into its own function, allowing templates to be easily moved to external files or databases later.
-*   **Practical Use Case Built-in:** Includes a working example designed for B2B marketing—generating LinkedIn blog articles with distinct A/B testing variations for headlines and CTAs.
+*   Clean Variable Injection: Uses multi-line docstrings and named .format() placeholders to keep prompt templates highly readable.
+*   Modern OpenAI SDK: Built using the latest OpenAI Python client initialization and chat completion structures.
+*   Separation of Concerns: Isolates the prompt construction logic into its own function, allowing templates to be easily moved to external files or databases later.
+*   Practical Use Case Built-in: Includes a working example designed for qualitative federal workforce analytics—automating theme extraction from FEVS survey comments and mapping them to OPM occupational competencies.
 
 ## Prerequisites
 
