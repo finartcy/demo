@@ -1,5 +1,9 @@
 import os
-# client = OpenAI(api_key=os.environ.get("OPENAI_API_KEY")) # Assumes client initialization
+from openai import OpenAI
+
+# Initialize the client. 
+# It will automatically look for an environment variable named "OPENAI_API_KEY"
+client = OpenAI()
 
 def generate_fevs_analysis_prompt(fevs_comment, occupational_series, target_competencies):
     """
